@@ -1,0 +1,70 @@
+main{
+  margin-bottom: 70px;
+}
+#cont{
+  width: 80%;
+  margin: auto;
+}
+.ele{
+  background-color: hsla(220, 17%, 93%, 1);
+  margin: 15px 5px;
+  border: 0;
+  border-radius: 8px;
+  padding: 24px 32px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+  width: 100%;
+  color: #101828;
+}
+#profile__img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px;
+  font-weight: 200;
+}
+footer > h5{
+  color: #667085;
+}
+#slack{
+  display: none;
+}
+#media{
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+#media div{
+  width: 24px;
+  height: 23.45px;
+}
+#zuri {
+  width: 185.03px;
+}
+
+#i4g {
+  width: 132.13px;
+}
+
+@media (max-width: 375px) {
+  footer{
+    display: grid;
+    border: 2px solid red;
+  }
+  #zuri{
+    width: 138.77px;
+  }
+  #i4g{
+    width: 99.1px;
+  }
+}
