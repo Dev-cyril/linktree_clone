@@ -53,7 +53,7 @@ const Links = () => {
             </div>
             <div id='media'>
                 <img src={slack} alt="" />
-                <img src={github} alt="" />
+                <a href="https://github.com/Dev-cyril"><img src={github}/></a>
             </div>
         </main>
     )
