@@ -1,4 +1,4 @@
-import profile_img from './images/profile__img.png'
+import profile_img from './images/profile_img.jpg'
 import slack from './images/slack.png'
 import github from './images/git.png'
 

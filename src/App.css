@@ -1,9 +1,16 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
 main{
   margin-bottom: 70px;
+}
+h3{
+  font-weight: 700;
 }
 #cont{
   width: 80%;
   margin: auto;
+  font-weight: 500;
 }
 .ele{
   background-color: hsla(220, 17%, 93%, 1);
@@ -11,7 +18,7 @@ main{
   border: 0;
   border-radius: 8px;
   padding: 24px 32px;
-  font-size: 13px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +67,7 @@ footer > h5{
 @media (max-width: 375px) {
   footer{
     display: grid;
-    border: 2px solid red;
+    padding: 5px 0;
   }
   #zuri{
     width: 138.77px;
@@ -68,4 +75,7 @@ footer > h5{
   #i4g{
     width: 99.1px;
   }
+  #cont{
+  width: 98%;
+}
 }
