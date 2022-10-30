@@ -23,6 +23,7 @@ main{
   width: 88px;
   height: 88px;
   border-radius: 50%;
+  margin-top: 25px;
 }
 a{
   text-decoration: none;

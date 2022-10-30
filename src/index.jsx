@@ -20,7 +20,7 @@ const Links = () => {
     },
     {
         name: 'Python Books',
-        linkDir: 'https://books.zuri.team/',
+        linkDir: 'https://books.zuri.team/python-for-beginners?ref_id=<cyrilikechukwuidu>',
         id: 'book__python'
     },
     {
