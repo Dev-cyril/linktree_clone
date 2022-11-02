@@ -43,7 +43,7 @@ const Links = () => {
             <div id="cont">
                 {
                     links.map((e) => (
-                        <a href={e.linkDir} target="_blank">
+                        <a href={e.linkDir}>
                             <button id={e.id} className='ele'>
                                 <h2>{e.name}</h2>
                             </button>
